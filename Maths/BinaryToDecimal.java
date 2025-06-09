@@ -1,4 +1,4 @@
-package Maths;
+ package Maths;
 
 import java.util.*;
 
@@ -15,7 +15,7 @@ public class BinaryToDecimal {
             ans=rem*mul+ans;
             mul=mul*2;
         }
-        System.out.println(ans);
+        System.out.println("Ans :" + ans);
         sc.close();
     }
 }
